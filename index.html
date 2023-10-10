@@ -15,72 +15,79 @@
     <h1>Hôtels à Delémont</h1>
 
     <!-- FORMULAIRE DE RESERVATION -->
-    <ul>
-        <li>
-            <label for="lis_hotel">Hôtel</label>
-            <select name="lis_hotel" id="lis_hotel">
-                <option value="0" selected>-- Sélectionnez un hôtel --</option>
-                <option value="City">Hôtel City</option>
-                <option value="National">Hôtel National</option>
-                <option value="Midi">Hôtel Le Midi</option>
-                <option value="Victoria">Hôtel Victoria</option>
-            </select>
-        </li>
-        <li>
-            <label for="txt_nbrChambre">Nombre de chambres</label>
-            <input name="txt_nbrChambre" id="txt_nbrChambre" type="text">
-        </li>
-        <li>
-            <fieldset>
-                <legend>Type de chambre</legend>
-                <label>
-                    <input type="radio" name="opt_type_chambre" value="standard simple">
-                    <span>Standard simple</span>
-                </label>
-                <label>
-                    <input type="radio" name="opt_type_chambre" value="standard double">
-                    <span>Standard double</span>
-                </label>
-                <label>
-                    <input type="radio" name="opt_type_chambre" value="supérieur simple">
-                    <span>Supérieur simple</span>
-                </label>
-                <label>
-                    <input type="radio" name="opt_type_chambre" value="supérieur double">
-                    <span>Supérieur double</span>
-                </label>
-            </fieldset>
-        </li>
-        <li>
-            <fieldset>
-                <legend>Type de chambre</legend>
-                <label>
-                    <input type="checkbox" name="chk_options" value="Petit déjeuner">
-                    <span>Petit déjeuner</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="chk_options" value="TV">
-                    <span>TV</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="chk_options" value="Journaux">
-                    <span>Journaux</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="chk_options" value="Ordinateurs">
-                    <span>Ordinateurs</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="chk_options" value="Accès Wifi">
-                    <span>Accès Wifi</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="chk_options" value="Animaux de compagnie">
-                    <span>Animaux de compagnie</span>
-                </label>
-            </fieldset>
-        </li>
-    </ul>
+    <form>
+        <ul>
+            <li>
+                <label for="lis_hotel">Hôtel</label>
+                <select name="lis_hotel" id="lis_hotel">
+                    <option value="0" selected>-- Sélectionnez un hôtel --</option>
+                    <option value="City">Hôtel City</option>
+                    <option value="National">Hôtel National</option>
+                    <option value="Midi">Hôtel Le Midi</option>
+                    <option value="Victoria">Hôtel Victoria</option>
+                </select>
+            </li>
+            <li>
+                <label for="txt_nbrChambre">Nombre de chambres</label>
+                <input name="txt_nbrChambre" id="txt_nbrChambre" type="text">
+            </li>
+            <li>
+                <fieldset>
+                    <legend>Type de chambre</legend>
+                    <label>
+                        <input type="radio" name="opt_type_chambre" value="standard simple">
+                        <span>Standard simple</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="opt_type_chambre" value="standard double">
+                        <span>Standard double</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="opt_type_chambre" value="supérieur simple">
+                        <span>Supérieur simple</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="opt_type_chambre" value="supérieur double">
+                        <span>Supérieur double</span>
+                    </label>
+                </fieldset>
+            </li>
+            <li>
+                <fieldset>
+                    <legend>Type de chambre</legend>
+                    <label>
+                        <input type="checkbox" name="chk_options" value="Petit déjeuner">
+                        <span>Petit déjeuner</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="chk_options" value="TV">
+                        <span>TV</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="chk_options" value="Journaux">
+                        <span>Journaux</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="chk_options" value="Ordinateurs">
+                        <span>Ordinateurs</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="chk_options" value="Accès Wifi">
+                        <span>Accès Wifi</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="chk_options" value="Animaux de compagnie">
+                        <span>Animaux de compagnie</span>
+                    </label>
+                </fieldset>
+            </li>
+            <li>
+                <button type="reset">Effacer</button>
+                <button type="submit">Réserver</button>
+            </li>
+        </ul>
+    </form>
+
 </div>
 
 <!-- RESERVATION -->
