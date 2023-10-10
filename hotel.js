@@ -1,7 +1,7 @@
 ﻿/**
-* @author      Steve Fallet <steve.fallet@divtec.ch>
+* @author      Nathan Génesta <nathan.genesta@divtec.ch>
 * @version     1.0
-* @since       2023-10-09
+* @since       2023-10-10
 *
 * http://usejsdoc.org/
 */
