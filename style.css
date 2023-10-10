@@ -24,6 +24,10 @@ form {
 	padding: 20px;
 }
 
+ul li label {
+	display: block;
+}
+
 form ul {
 	padding-left: 0;
 	margin: 0;
